@@ -12,4 +12,3 @@ var postsData = [ {
 Template.postsList.helpers({
   posts: postsData
 });
-title: 'The Meteor Book',
