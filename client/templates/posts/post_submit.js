@@ -12,7 +12,8 @@ Template.postSubmit.events({ 'submit form': function(e) {
       // show this result but route anyway
    if (result.postExists)
       alert('This link has already been posted');
-      Router.go('postPage', {_id: result._id});
     });
+
+   Router.go('postList');
    }
 });
